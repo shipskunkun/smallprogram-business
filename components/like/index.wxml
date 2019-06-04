@@ -1,6 +1,7 @@
 <view class='container' bind:tap="onLike">
   <image src='images/like.png' ></image>
-  <text>99999</text>
+  <text wx-if="bool">{{ count1 }}</text>
+  <text wx-else="bool">{{ count2 }}</text>
 </view>
 
 

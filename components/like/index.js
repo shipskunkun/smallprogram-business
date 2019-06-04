@@ -11,7 +11,9 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    count1: 99,
+    count2: 100,
+    bool: false
   },
 
   /**
