@@ -1,0 +1,20 @@
+/* components/like/index.wxss */
+
+.container {
+  display: inline-flex;
+  padding: 10rpx;
+}
+.container image{
+  width: 32rpx;
+  height: 28rpx;
+}
+.container text {
+  /* font-family: 'PingFangSC-Thin'; */
+  /* font-size: 34rpx; */
+  color: #bbbbbb;
+  position: relative;
+  left: 6rpx;
+  bottom: 10rpx;
+  line-height: 24rpx;
+  font-size: 24rpx;
+}
