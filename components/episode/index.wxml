@@ -5,7 +5,7 @@
     <view class="line"></view>
   </view>
   <view class="date-container">
-    <text class="month">七月</text>
+    <text class="month">{{ month }}</text>
     <text class="year">{{year}}</text>
   </view>
 </view>

@@ -48,6 +48,7 @@ Page({
     this.setData({
       more:random(16)
     })
+    console.log('执行', this.data.more);
   }
 
   
